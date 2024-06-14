@@ -880,29 +880,19 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   right: 0;
   top: 0;
 }
-.countIndicator,
-.playedIndicator {
-  border-radius: 0 var(--rounding) !important;
-  border: 3px solid #f5f5f5;
-}
-.countIndicator {
-  background: rgba(var(--accent), 1);
-}
+
+.countIndicator {background: #00000058;}
+
 .playedIndicator {
   background: rgba(var(--darkest), 1);
 }
+
 .mediaSourceIndicator {
   left: 0;
   top: 0;
   border-radius: var(--rounding) 0 !important;
   box-shadow: -1px 1px 5px 1px rgba(var(--darkest), 0.5);
   background: rgba(0, 0, 0, 0.5);
-}
-.countIndicator,
-.playedIndicator {
-  background: rgba(var(--accent), 1) !important;
-  color: rgba(var(--darkest), 1) !important;
-  font-weight: 700;
 }
 [dir="ltr"] .cardIndicators {
   right: 0;
