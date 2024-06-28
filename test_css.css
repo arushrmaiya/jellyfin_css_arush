@@ -2068,15 +2068,6 @@ padding: 0em !important;
     width: 25vw;
 }
 
-/* Hide "manual" and "forgot" buttons */
-#loginPage .raised.cancel.block.btnManual.emby-button {
-  display: none;
-}
-
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-  display: none;
-}
-
 /*if the logo is present on the details page and loaded hide the title so it doesnt duplicate and look weird*/
 #itemDetailPage .itemName.infoText.parentNameLast > bdi:nth-child(1) {display: none;}
 .hide+.detailPageWrapperContainer .itemName > bdi:nth-child(1) {display: block !important;}
